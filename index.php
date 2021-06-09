@@ -18,10 +18,8 @@ if(isset( $_GET['lang'])) {
 }
 
 if($section) {
-	$feed_url="https://news.google.com/news/rss/headlines/section/topic/".strtoupper($section)."?ned=".$loc."&hl=".$lang;
-} else {
-	$feed_url="https://news.google.com/rss?gl=".$loc."&hl=".$lang."-".$loc."&ceid=".$loc.":".$lang;
-}
+	$feed_url="https://www.theepochtimes.com/feed/".strtoupper($section)."?ned=".$loc."&hl=".$lang;
+} else {}
 
 //https://news.google.com/news/rss/headlines/section/topic/CATEGORYNAME?ned=in&hl=en
 $feed = new SimplePie();
