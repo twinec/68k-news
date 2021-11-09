@@ -1,2 +1,2 @@
 # 68k-news
-Source for the 68k.news site
+Source for the 68k.epoch site (coming soon)
